@@ -1,0 +1,14 @@
+<h1> Log Book </h1>
+
+<div class="log">
+    <div class="entry">
+        <h2 class="name header">Name</h2>
+        <h2 class="words header">Entry</h2>
+    </div>
+    <% @scientists.each do |scientist|%>
+        <div class="entry">
+            <p class="name"><%= scientist.name %></p>
+            <p class="words"><%= scientist.entry %></p>
+        </div>
+    <% end %>
+</div>

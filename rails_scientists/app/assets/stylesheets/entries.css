@@ -1,0 +1,48 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.papaya-whip {
+    background-color: papayawhip;
+}
+
+h1, h2 {
+    font-family: 'Jim Nightshade', cursive;
+}
+
+p {
+    font-family: 'Italianno', cursive;
+    font-size: 1.5rem;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    width: 25%;
+}
+
+.words {
+    width: 75%;
+}
+
+.header {
+    text-align: center;
+}
+
+.scripture {
+    width: 60%;
+}
+
+.source {
+    width: 15%;
+}

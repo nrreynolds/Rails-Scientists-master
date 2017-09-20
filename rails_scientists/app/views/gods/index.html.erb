@@ -1,0 +1,16 @@
+<h1> Log Book </h1>
+
+<div class="log">
+    <div class="entry">
+        <h2 class="name header">Author</h2>
+        <h2 class="scripture header">Scripture</h2>
+        <h2 class="source">Source</h2>
+    </div>
+    <% @gods.each do |god|%>
+        <div class="entry">
+            <p class="name"><%= god.author %></p>
+            <p class="scripture"><%= god.scripture %></p>
+            <p class="source"><%= god.source %></p>
+        </div>
+    <% end %>
+</div>
